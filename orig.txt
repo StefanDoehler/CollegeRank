@@ -1,0 +1,641 @@
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/princeton-university-2627/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_6976.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/princeton-university-2627">Princeton University</a>
+</h3>
+<div class="block-normal text-small">Princeton, NJ</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #1 in National Universities 
+                    </div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Princeton, among the oldest colleges in the U.S., is located in the quiet town of Princeton, New Jersey. Within the walls of its historic ivy-covered campus, Princeton offers a number of events, activities and organizations. The Princeton Tigers, members of the Ivy League, are well known for their consistently strong men's and women's lacrosse teams. Students live in one of six residential colleges that provide a residential community as well as dining services but have the option to join one of more than 10 eating clubs for their junior and senior years. The eating clubs serve as social and dining organizations for the students who join them. Princeton's unofficial motto, "Princeton in the Nation's Service and in the Service of Humanity," speaks to the university's commitment to community service.
+                <a class="ellipsis-show" href="/best-colleges/princeton-university-2627">more</a>
+</p>
+</div>
+name: Princeton University
+num: 
+                        #1 in National Universities 
+                     <_sre.SRE_Match object at 0x028B0838>
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/harvard-university-2155/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_8866.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/harvard-university-2155">Harvard University</a>
+</h3>
+<div class="block-normal text-small">Cambridge, MA</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #2 in National Universities 
+                    </div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Harvard is located in Cambridge, Massachusetts, just outside of Boston. Harvard's extensive library system houses the oldest collection in the United States and the largest private collection in the world. There is more to the school than endless stacks, though: Harvard's athletic teams compete in the Ivy League, and every football season ends with "The Game," an annual matchup between storied rivals Harvard and <a href="http://colleges.usnews.rankingsandreviews.com/best-colleges/new-haven-ct/yale-university-1426">Yale</a>. At Harvard, on-campus residential housing is an integral part of student life. Freshmen live around the Harvard Yard at the center of campus, after which they are placed in one of 12 undergraduate houses for their remaining three years. Although they are no longer recognized by the university as official student groups, the eight all-male "final clubs" serve as social organizations for some undergraduate students; Harvard also has five female clubs.
+                <a class="ellipsis-show" href="/best-colleges/harvard-university-2155">more</a>
+</p>
+</div>
+name: Harvard University
+num: 
+                        #2 in National Universities 
+                     <_sre.SRE_Match object at 0x028B0870>
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/university-of-chicago-1774/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/dims4/USNEWS/5b128f0/17177859217/resize/800x540/quality/85/?url=www.usnews.com%2Fcmsmedia%2F97%2Fa2%2F70c471924fa1ae47788aafc952b4%2F160727-univerity-of-chicago-hero-stock.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/university-of-chicago-1774">University of Chicago</a>
+</h3>
+<div class="block-normal text-small">Chicago, IL</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #3 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            The University of Chicago, situated in Chicago’s Hyde Park community, offers a rich campus life in a big-city setting. The Chicago Maroons have more than 15 NCAA Division III teams, which compete in the University Athletic Association, and have strong basketball and wrestling programs. At Chicago, freshmen are required to live on campus, and more than 50 percent of students choose to remain on campus, while others live in off-campus apartments and houses. On-campus students are placed in "houses" within their dorm, which serve as tight-knit communities and provide academic and social support. Chicago offers more than 400 student organizations.
+                <a class="ellipsis-show" href="/best-colleges/university-of-chicago-1774">more</a>
+</p>
+</div>
+name: University of Chicago
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/yale-university-1426/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/dims4/USNEWS/60348dd/17177859217/resize/800x540/quality/85/?url=www.usnews.com%2Fcmsmedia%2F63%2F64%2Facbcdd85417f8f9d141439d4a505%2F160727-yale-university-hero-stock.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/yale-university-1426">Yale University</a>
+</h3>
+<div class="block-normal text-small">New Haven, CT</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #3 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Yale University, located in New Haven, Connecticut, is known for its excellent drama and music programs, which reach outside the classroom with student organizations such as the Yale Whiffenpoofs, a famous a cappella group, and the Yale Dramatic Association. The Yale Bulldogs compete in the Ivy League and are well known for their rivalry with Harvard. Students are assigned to live in one of 12 residential colleges during their time at Yale. Each college has a master and dean who live in the college and eat with students in the dining halls. Cultural houses provide a space for students to build a sense of cultural identity on campus.
+                <a class="ellipsis-show" href="/best-colleges/yale-university-1426">more</a>
+</p>
+</div>
+name: Yale University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/columbia-university-2707/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_19002.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/columbia-university-2707">Columbia University</a>
+</h3>
+<div class="block-normal text-small">New York, NY</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #5 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Columbia University, located in Manhattan’s Morningside Heights neighborhood in New York City, offers a wide range of student activities. The Columbia Lions field more than 25 NCAA Division I teams in the Ivy League. More than 90 percent of students live in on-campus housing, ranging from traditional residence halls to university-owned brownstones. Many of the brownstones are populated by the more than 25 Greek fraternity and sorority chapters on campus, whose membership includes about 10 percent of the student body. Organizations such as Urban New York, which gives out free tickets to city events, foster student interaction with life in the Big Apple.
+                <a class="ellipsis-show" href="/best-colleges/columbia-university-2707">more</a>
+</p>
+</div>
+name: Columbia University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/stanford-1305/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_10369.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/stanford-1305">Stanford University</a>
+</h3>
+<div class="block-normal text-small">Stanford, CA</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #5 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Stanford University’s pristine campus is located in California’s Bay Area, about 30 miles from San Francisco. Stanford offers a wide range of student organizations, including the Stanford Pre-Business Association and Stanford Solar Car Project, which designs, builds and races a solar car every two years. The Stanford Cardinals are well known for the traditional "Big Game" against <a href="http://colleges.usnews.rankingsandreviews.com/best-colleges/berkeley-ca/uc-berkeley-1312">Cal</a>, an annual football competition that awards the Stanford Axe—a sought-after trophy—to the victor. Stanford also has successful programs in tennis and golf. Only freshman are required to live on campus, but students are guaranteed housing for all four years and most choose to remain on campus. Greek life at Stanford represents approximately 10 percent of the student body.
+                <a class="ellipsis-show" href="/best-colleges/stanford-1305">more</a>
+</p>
+</div>
+name: Stanford University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/mit-2178/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_6935.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/mit-2178">Massachusetts Institute of Technology</a>
+</h3>
+<div class="block-normal text-small">Cambridge, MA</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #7 in National Universities 
+                    </div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            MIT is located in Cambridge, Massachusetts, across the Charles River from downtown <a href="http://www.usnews.com/education/best-colleges/slideshows/10-great-college-towns/7">Boston</a>. Only freshmen students are required to live on campus, but about 70 percent of students choose to remain on campus during their four years. MIT offers housing in one of the coolest dorms in the country, commonly called "<a href="http://www.usnews.com/education/best-colleges/slideshows/8-cool-college-dorms/6">The Sponge</a>," designed by architect Steven Holl. The MIT Engineers boast more than 30 NCAA Division III teams, and their mascot is a beaver, which MIT chose because of its "remarkable engineering and mechanical skill and its habits of industry." Each class designs a unique ring called the "Brass Rat" that is revealed during sophomore year, a tradition that dates back to 1929.
+                <a class="ellipsis-show" href="/best-colleges/mit-2178">more</a>
+</p>
+</div>
+name: Massachusetts Institute of Technology
+num: 
+                        #7 in National Universities 
+                     <_sre.SRE_Match object at 0x028B0870>
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/duke-university-2920/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/dims4/USNEWS/7e5b5e0/17177859217/resize/800x540/quality/85/?url=www.usnews.com%2Fcmsmedia%2F57%2F74%2Fc95b0bcc49d9972533add4f11e13%2F160728-duke-university-hero-stock.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/duke-university-2920">Duke University</a>
+</h3>
+<div class="block-normal text-small">Durham, NC</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #8 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Durham, North Carolina, which surrounds Duke's campus, offers a variety of activities including shopping, dining and entertainment. Its "Bull City" nickname comes from the Blackwell Tobacco Company's Bull Durham Tobacco. Students at Duke are required to live on campus for their first three years, and freshmen live together on the East Campus. The Duke Blue Devils maintain a fierce rivalry with the <a href="http://colleges.usnews.rankingsandreviews.com/best-colleges/chapel-hill-nc/unc-2974">University of North Carolina—Chapel Hill</a> Tar Heels and are best known for their outstanding men's basketball program, one of the top five winningest college basketball programs in the country. Approximately 30 percent of the student body is affiliated with Greek life, which encompasses more than 30 fraternities and sororities.
+                <a class="ellipsis-show" href="/best-colleges/duke-university-2920">more</a>
+</p>
+</div>
+name: Duke University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/university-of-pennsylvania-3378/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_2743.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/university-of-pennsylvania-3378">University of Pennsylvania</a>
+</h3>
+<div class="block-normal text-small">Philadelphia, PA</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #8 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            The University of Pennsylvania, located in Philadelphia, was founded by Benjamin Franklin. The Penn Quakers have more than 25 NCAA Division I sports that compete in the Ivy League, and are noted for successful basketball and lacrosse teams. Penn offers housing in more than 10 College Houses, but many students live in the numerous off-campus apartments and houses available. More than 25 percent of the student body is involved in Greek life, which encompasses about 45 fraternities and sororities. The school also offers a number of clubs and organizations, ranging from performance groups like the Latin and Ballroom dance club to student publications such as the Penn Political Review. Penn works closely with the West Philadelphia area through community service and advocacy groups.
+                <a class="ellipsis-show" href="/best-colleges/university-of-pennsylvania-3378">more</a>
+</p>
+</div>
+name: University of Pennsylvania
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/jhu-2077/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_9422.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/jhu-2077">Johns Hopkins University</a>
+</h3>
+<div class="block-normal text-small">Baltimore, MD</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #10 in National Universities 
+                    </div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Johns Hopkins University has four main campuses in and around Baltimore. The Homewood Campus, located next to the eclectic neighborhood of Charles Village, is the primary campus for undergraduates, and three other campuses house various graduate schools. Hopkins also has three additional campuses for its School of Advanced International Studies (SAIS) in Washington, D.C.; Bologna, Italy; and Nanjing, China. The Hopkins Blue Jays compete in the NCAA Division III Centennial Conference, but they are perhaps best known for their consistently dominant men’s lacrosse team, which competes in NCAA Division I competitions. Freshmen and sophomores are required to live in on-campus residences. There is a sizeable Greek community with a membership of more than 1,000 students.
+                <a class="ellipsis-show" href="/best-colleges/jhu-2077">more</a>
+</p>
+</div>
+name: Johns Hopkins University
+num: 
+                        #10 in National Universities 
+                     <_sre.SRE_Match object at 0x028B0838>
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/dartmouth-college-2573/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_27088.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/dartmouth-college-2573">Dartmouth College</a>
+</h3>
+<div class="block-normal text-small">Hanover, NH</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #11 in National Universities 
+                    </div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Dartmouth College, located in Hanover, New Hampshire, offers a wide range of student activities. Nearly 25 percent of students participate in Dartmouth's NCAA Division I varsity sports. More than 90 percent of students live in on-campus housing, which includes residence halls, fraternity and sorority houses, college-approved coeds and undergraduate societies. Approximately 60 percent of students are members of Greek organizations, which serve as the hubs of social life at Dartmouth. The Outing Club – the oldest and largest collegiate outing club in the country – is the most popular student organization at Dartmouth, offering outdoor activities, expeditions, gear rentals and courses.
+                <a class="ellipsis-show" href="/best-colleges/dartmouth-college-2573">more</a>
+</p>
+</div>
+name: Dartmouth College
+num: 
+                        #11 in National Universities 
+                     <_sre.SRE_Match object at 0x028B08E0>
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/cal-tech-1131/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_93.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/cal-tech-1131">California Institute of Technology</a>
+</h3>
+<div class="block-normal text-small">Pasadena, CA</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #12 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Caltech, which focuses on science and engineering, is located in Pasadena, California, approximately 11 miles northeast of Los Angeles. Social and academic life at Caltech centers on the eight student houses, which the school describes as "self-governing living groups." Student houses incorporate an admired Caltech tradition: dinners served by student waiters. Only freshmen are required to live on campus, but around 80 percent of students remain in their house for all four years. The Caltech Beavers have a number of NCAA Division III teams that compete in the Southern California Intercollegiate Athletic Conference. Integral to student life is the Honor Code, which dictates that "No member of the Caltech community shall take unfair advantage of any other member of the Caltech community."
+                <a class="ellipsis-show" href="/best-colleges/cal-tech-1131">more</a>
+</p>
+</div>
+name: California Institute of Technology
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/northwestern-1739/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_3277.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/northwestern-1739">Northwestern University</a>
+</h3>
+<div class="block-normal text-small">Evanston, IL</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #12 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            What began as farmland and swampland in the 1850s became the Northwestern campus and the city of Evanston, Ill. Northwestern University is a Division I school in the Big Ten athletic conference. Northwestern's women's lacrosse team has won multiple NCAA national championships. The school has hundreds of campus organizations fulfill students' varied interests. Freshmen are guaranteed on-campus housing if requested in their applications. The school's 11 residential colleges offer thematic living quarters for social and academic programming. Northwestern's main campuses are located along Lake Michigan in Evanston and Chicago. In 2008, Northwestern opened a third branch in Doha, Qatar.
+                <a class="ellipsis-show" href="/best-colleges/northwestern-1739">more</a>
+</p>
+</div>
+name: Northwestern University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/brown-university-3401/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_26074.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/brown-university-3401">Brown University</a>
+</h3>
+<div class="block-normal text-small">Providence, RI</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #14 in National Universities 
+                    </div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Located atop College Hill in Providence, R.I., Brown University has a college-town feel with Thayer Street serving as a center of activity for shopping and dining. The Brown Bears have about 35 NCAA Division I athletic teams and compete in the Ivy League. The Bears are well known for their men’s soccer team, which consistently ranks among the top 25 teams in the nation. All students at Brown are required to live on campus for their first six semesters, and housing options include traditional singles, doubles and suites. With around 400 student organizations on campus ranging from The Brown Jug comedy magazine to Brown Ballroom Dance, students can find a way to pursue their interests. Brown also has a small but vibrant Greek community with approximately 10 chapters, including a few co-ed Greek organizations.
+                <a class="ellipsis-show" href="/best-colleges/brown-university-3401">more</a>
+</p>
+</div>
+name: Brown University
+num: 
+                        #14 in National Universities 
+                     <_sre.SRE_Match object at 0x028B0838>
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/cornell-university-2711/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_73.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/cornell-university-2711">Cornell University</a>
+</h3>
+<div class="block-normal text-small">Ithaca, NY</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #15 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Cornell University, located in Ithaca, New York, has more than 1,000 student organizations on campus, which range from the Big Red Marching Band to the International Affairs Society. First-year students live together on north campus, and the university has housing options for upperclassmen and graduate students, though many choose to live off campus. Cornell has a thriving Greek life, with more than 60 fraternity and sorority chapters. Cornell has more than 30 NCAA Division I varsity teams that compete in the Ivy League. The Cornell Big Red are perhaps best known for their successful men's lacrosse team, which won nine consecutive Ivy League titles from 2003 to 2011. Cornell also has a strong hockey program.
+                <a class="ellipsis-show" href="/best-colleges/cornell-university-2711">more</a>
+</p>
+</div>
+name: Cornell University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/rice-3604/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_5200.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/rice-3604">Rice University</a>
+</h3>
+<div class="block-normal text-small">Houston, TX</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #15 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Rice University, located in the heart of Houston’s Museum District, offers a dynamic student life in the nation’s fourth-largest city. The Rice Coffeehouse, Valhalla Pub and Willy’s Pub are all student-run institutions offering on-campus food and drink. Before stepping foot on campus, all students are assigned to one of 11 residential colleges, of which they remain members even if they decide to move off campus. The residential colleges provide housing, dining, and academic and social events. The Rice Owls boast 14 varsity NCAA Division I athletic teams and are well known for their strong baseball program. Students receive free tickets to all varsity athletic events.
+                <a class="ellipsis-show" href="/best-colleges/rice-3604">more</a>
+</p>
+</div>
+name: Rice University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/notre-dame-1840/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_154.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/notre-dame-1840">University of Notre Dame</a>
+</h3>
+<div class="block-normal text-small">Notre Dame, IN</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #15 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Notre Dame is located in South Bend, Ind., just 100 miles outside of Chicago. Only freshmen are required to live on campus, but most students choose to remain on campus in one of the 29 single-sex residence halls. The halls serve as the centers of social life at Notre Dame, as there is no Greek life on campus. Legends, an on-campus restaurant and pub, is a popular spot for watching sporting events. The Notre Dame "Fighting Irish" boast more than 25 varsity NCAA Division I athletic teams and are well known for their consistently strong football program. Over half of students study abroad for at least one semester.
+                <a class="ellipsis-show" href="/best-colleges/notre-dame-1840">more</a>
+</p>
+</div>
+name: University of Notre Dame
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/vanderbilt-3535/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_351.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/vanderbilt-3535">Vanderbilt University</a>
+</h3>
+<div class="block-normal text-small">Nashville, TN</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #15 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Vanderbilt University offers a wide range of student activities. Located in Nashville, or Music City, there are plenty of off-campus options for dining, shopping, music and entertainment. On campus, Greek organizations play a big role in social life, with approximately 40 percent of students affiliated with Greek life. All undergraduate students at Vanderbilt are required to live on campus, and freshmen live together in <a href="http://www.usnews.com/education/best-colleges/slideshows/10-colleges-with-green-dorms/6">The Commons</a>, which has six LEED certified green dorms. The Commodores, named for Vanderbilt founder "Commodore" Cornelius Vanderbilt, have teams in the NCAA Division I Southeastern Conference. About 35 percent of students take advantage of Vanderbilt’s study abroad programs, which are offered in more than 35 countries.
+                <a class="ellipsis-show" href="/best-colleges/vanderbilt-3535">more</a>
+</p>
+</div>
+name: Vanderbilt University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/washington-university-st-louis-2520/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_826.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/washington-university-st-louis-2520">Washington University in St. Louis</a>
+</h3>
+<div class="block-normal text-small">St. Louis, MO</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #19 in National Universities 
+                    </div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Washington University in St. Louis is located in a city that offers professional sports in football, baseball and hockey in addition to a wide range of options for dining and entertainment. The Wash U Bears are members of the NCAA Division III University Athletic Association. Freshmen are required to live on campus in one of the residence houses. After freshman year, students can choose to live in suite-style housing, on-campus apartments, fraternity houses or off-campus apartments and homes. Approximately 25 percent of students are affiliated with Greek life at Wash U.
+                <a class="ellipsis-show" href="/best-colleges/washington-university-st-louis-2520">more</a>
+</p>
+</div>
+name: Washington University in St. Louis
+num: 
+                        #19 in National Universities 
+                     <_sre.SRE_Match object at 0x028B0870>
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/emory-university-1564/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_10800.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/emory-university-1564">Emory University</a>
+</h3>
+<div class="block-normal text-small">Atlanta, GA</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #20 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Emory University is located in the suburb of Druid Hills near downtown Atlanta. First- and second-year students are required to live on campus, but a majority of students choose to remain on campus for all four years. The Student Programming Council organizes events and performances throughout the year and has brought entertainers and musicians such as Tracy Morgan, Sean Kingston and Guster to campus in past years. A popular organization among students is Volunteer Emory, which oversees community service activities. The Emory Eagles have nearly 20 NCAA Division III varsity teams and are well known for their successful swimming and diving team. In addition to varsity athletics, all students are required to take two courses in physical education. There is a thriving Greek community at Emory with a number of fraternity and sorority chapters.
+                <a class="ellipsis-show" href="/best-colleges/emory-university-1564">more</a>
+</p>
+</div>
+name: Emory University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/georgetown-university-1445/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_7439.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/georgetown-university-1445">Georgetown University</a>
+</h3>
+<div class="block-normal text-small">Washington, DC</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #20 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Georgetown University is situated overlooking the Potomac River just a few minutes from downtown Washington. There are numerous traditional residence halls, and freshmen and sophomores are required to live on campus. Other students choose to live in the townhouses and apartments surrounding campus. Student organizations on campus include religious groups, media outlets and student government. The Georgetown Hoyas are part of the NCAA’s Division I and are well known for their dominant men’s basketball team, which maintains a fierce rivalry with <a href="http://colleges.usnews.rankingsandreviews.com/best-colleges/syracuse-university-2882">Syracuse University</a> and plays most home games at the Verizon Center, also home to the Washington Wizards. The popular chant "hoya saxa," a mix of ancient Greek and Latin that means "what rocks," gained prominence in 1920 and – contrary to popular belief – has nothing to do with Georgetown’s mascot, Jack the Bulldog.
+                <a class="ellipsis-show" href="/best-colleges/georgetown-university-1445">more</a>
+</p>
+</div>
+name: Georgetown University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/uc-berkeley-1312/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_1993.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/uc-berkeley-1312">University of California--Berkeley</a>
+</h3>
+<div class="block-normal text-small">Berkeley, CA</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #20 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            The University of California—Berkeley, often referred to as Cal, is situated overlooking the San Francisco Bay. Typically, 95 percent or more of incoming freshmen at Berkeley choose to live on campus. There are more than 1,000 student organizations, ranging from political groups to a hang gliding club and everything in between. Berkeley also has a thriving Greek life with dozens of fraternity and sorority chapters. The California Golden Bears, Berkeley’s athletic teams, compete in the Pac-12 Conference and are known for their traditional arch rivalry with <a href="http://colleges.usnews.rankingsandreviews.com/best-colleges/stanford-1305">Stanford University</a>.
+                <a class="ellipsis-show" href="/best-colleges/uc-berkeley-1312">more</a>
+</p>
+</div>
+name: University of California--Berkeley
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/usc-1328/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_11612.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/usc-1328">University of Southern California</a>
+</h3>
+<div class="block-normal text-small">Los Angeles, CA</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #23 in National Universities 
+                    </div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            The University of Southern California’s central campus, referred to as the University Park campus, is located in Los Angeles’s Downtown Arts and Education Corridor. USC has other campuses in L.A. in addition to sites around Southern California and in Sacramento, Calif., and Washington. Students can participate in the more than 700 on-campus organizations, ranging from religious groups to club sports. USC students are not required to live on campus, but the university offers housing in its 40 or so residence halls and apartment buildings. A thriving Greek life comprises more than 60 chapters representing more than 3,500 students. The USC Trojans compete in the Pac-12 Conference and are known for their legendary football program.
+                <a class="ellipsis-show" href="/best-colleges/usc-1328">more</a>
+</p>
+</div>
+name: University of Southern California
+num: 
+                        #23 in National Universities 
+                     <_sre.SRE_Match object at 0x028B08E0>
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/carnegie-mellon-university-3242/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_7656.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/carnegie-mellon-university-3242">Carnegie Mellon University</a>
+</h3>
+<div class="block-normal text-small">Pittsburgh, PA</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #24 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            Carnegie Mellon University, founded by industrialist and philanthropist Andrew Carnegie, is located in Pittsburgh, which offers dining and entertainment options as well as professional sports teams including the Penguins (hockey), Steelers (football) and Pirates (baseball). Only freshmen are required to live on campus, but the university guarantees housing for all four years, and the majority of students choose to remain on campus. Nearly 20 percent of the student population is affiliated with Greek life, which consists of more than 20 fraternities and sororities. The Carnegie Mellon Tartans compete in NCAA Division III competitions, and the Kiltie Band, which sports full Scottish regalia, performs at every home football game.
+                <a class="ellipsis-show" href="/best-colleges/carnegie-mellon-university-3242">more</a>
+</p>
+</div>
+name: Carnegie Mellon University
+num: None None
+<div class="clearfix">
+<div class="right">
+<a class="display-block" href="/best-colleges/ucla-1315/photos">
+<div class="show-for-medium-up border" style="margin: 0 0 1rem 1rem; width: 200px; height: 150px; background-image: url(http://www.usnews.com/img/college-photo_5631.jpg); background-size: cover; background-position: center center;"></div>
+</a>
+</div>
+<h3 class="heading-large block-tighter">
+<a href="/best-colleges/ucla-1315">University of California--Los Angeles</a>
+</h3>
+<div class="block-normal text-small">Los Angeles, CA</div>
+<div class="block-normal">
+<img class="left" src="/static/img/mini-badge-color.svg" style="width: 2rem; position: relative; top: -3px;">
+<div class="text-strong" style="margin-left: 2.5rem;">
+<div>
+                        #24 in National Universities <span class="text-muted">(tie)</span>
+</div>
+</div>
+</img></div>
+<p class="block-normal text-small show-for-medium-up ellipsis" style="overflow: hidden">
+            The University of California—Los Angeles, commonly referred to as UCLA, is located in the Westwood neighborhood of L.A., just five miles from the Pacific Ocean. UCLA guarantees housing for three years. Students can join any of the more than 800 student organizations, including 60 or so Greek chapters, which represent about 13 percent of the student body. The university has a number of student media groups including a newspaper, magazine, and radio and TV stations. The UCLA Bruins compete in the Pac-12 Conference of NCAA’s Division I and are well known for their successful men’s and women’s water polo teams. The Bruins’ football team plays its home games at the famous Rose Bowl stadium in nearby Pasadena.
+                <a class="ellipsis-show" href="/best-colleges/ucla-1315">more</a>
+</p>
+</div>
+name: University of California--Los Angeles
+num: None None
