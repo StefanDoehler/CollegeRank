@@ -1,75 +1,50 @@
-<!DOCTYPE html>
-<html class="no-js" lang="">
- <head>
-  <title>
-   Forbes Welcome
-  </title>
-  <meta charset="utf-8">
-   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width,initial-scale=1,maximum-scale=2" name="viewport">
-     <meta content="Forbes Welcome page -- Forbes is a global media company, focusing on business, investing, technology, entrepreneurship, leadership, and lifestyle." name="description">
-      <meta content="business news, market analysis, company profiles, personal finance, management, entrepreneurship, investments, financial advice, economy, technology news" name="keywords">
-       <link href="//i.forbesimg.com/welcomead/styles/af8c7823.main.css" rel="stylesheet">
-        <script type="text/javascript">
-         fbs_settings = {
-                mobile: 'false',
-                preview: 'false',
-                test: 'false',
-                classes: 'WyJhZHMtbWVkaXVtLXJlY3QiLCJ5YWhvby1zcG9uc29yZWQtbGlua3MiLCJ0b3AtYWR2ZXJ0IiwiYWRfYmFjayIsImFkdmVydGlzaW5naW1hZ2VleHRlbmRlZCIsImdvb2dsZVByb2ZpbGVBZCIsIm1lZGlhQWRDb250YWluZXIiLCJsZWFkZXJib2FyZGFkbWlkZGxlIiwiZ2xhbXNxdWFyZWFkIiwiam9icy1hZC1ib3giLCJ2ZXJ0LWFkcyIsInBvc3Rncm91cC1hZHMtbWlkZGxlIiwidjVyY18zMzZ4MjgwYWQiLCJnYW1fYWRfc2xvdCIsIm1haW5fYWRfYWR6b25lXzlfYWRfMSIsImFkX3czMDBpIiwiYWRzLWJvcmRlciIsImJvdHRvbS1yaWdodGFkdnRzbWVudCIsImFkdi1pbnRleHQtbGFiZWwiLCJocC1zbGlkZXNob3ctcmlnaHQtYWQiLCJ0YWRzYW56ZWlnZSIsImFkMzAweDQwIiwiYWRUYWciLCJhZF9zZWN0aW9uXzcyOHg5MCIsImFkQmxvY2sxNjB4NjAwU3BvdDEiLCJzcG9uc29yLWlubmVyIiwiYnV0dG9uYWRzIiwiZ29vZ2xlYWRBcmVhIiwiYWRzaWRlLWJveC1zaW5nbGUiLCJwb3B1cEFkIl0='
-            };
-        </script>
-        <script type="text/javascript">
-         try {
-                fbs_settings.data = {"channel":"channel_0","section":"section_0","location":"welcomead_default","panel":"welcome_ad","contentPositions":[{"position":1,"title":"Quote of the Day","description":"“Surround yourself with people who believe in you more than you do in yourself.”","following":false,"byline":"Gaby Natale","hideDescription":false,"sponsored":true,"twitterHandle":"","hashtag":"","removeTopPadding":false,"removeBottomPadding":false}],"panelId":"panel1","limit":0,"swimlane":false,"more":false,"enableAds":false,"removeBVPrepend":false,"brandvoiceHeader":false,"profileLink":false,"fullListLink":false,"pagination":false,"filters":false,"year":0};
-            } catch (err) {
-                fbs_settings.data = null;
-            }
-        </script>
-        <script type="text/javascript">
-         try {
-                fbs_settings.angular_preload = ["//i.forbesimg.com/forbes/scripts/0eb1503c.vendor.js","//i.forbesimg.com/forbes/scripts/2f2c7ccd.scripts.js","//i.forbesimg.com/forbes/styles/0c428409.main.css"];
-            } catch (err) {
-                fbs_settings.angular_preload = null;
-            }
-        </script>
-        <script src="//i.forbesimg.com/welcomead/scripts/vendor/69216742.modernizr.js">
-        </script>
-       </link>
-      </meta>
-     </meta>
-    </meta>
-   </meta>
-  </meta>
- </head>
- <body>
-  <div class="container clearfix default-template ad-300-by-250" id="app">
-   <div id="navigation">
-   </div>
-   <div id="content">
-    <div class="hidden" id="adblock-hover">
-     <span class="close-btn preloaded">
-      <span class="close">
-       CLOSE
-      </span>
-      <i class="icon icon-close">
-      </i>
-     </span>
-     <img>
-      <a href="//www.forbes.com/adblock/instructions/" target="_blank">
-       More Options
-      </a>
-     </img>
-    </div>
-   </div>
-   <div id="ads">
-   </div>
-  </div>
-  <!--[if lte IE 9]>
-        <script src="//i.forbesimg.com/welcomead/scripts/b9b8347c.legacy.js"></script>
-        <![endif]-->
-  <script src="//i.forbesimg.com/welcomead/scripts/1a364ca6.vendor.js">
-  </script>
-  <script src="//i.forbesimg.com/welcomead/scripts/e6389b8a.main.js">
-  </script>
- </body>
-</html>
+50. Brandeis University
+49. Grinnell College
+48. Boston College
+47. Hamilton College
+46. Colgate University
+45. University of California-Los Angeles
+44. Davidson College
+43. Emory University
+42. University of North Carolina at Chapel Hill
+41. Harvey Mudd College
+40. Barnard College
+39. Wesleyan University
+38. Soka University of America
+37. Middlebury College
+36. Johns Hopkins University
+35. University of Michigan-Ann Arbor
+34. University of California-Berkeley
+33. Tufts University
+32. Vassar College
+31. Carleton College
+30. Haverford College
+29. College of William and Mary
+28. Georgetown University
+27. Claremont McKenna College
+26. Cornell University
+25. Washington and Lee University
+24. Bowdoin College
+23. Wellesley College
+22. Rice University
+21. University of Virginia-Main Campus
+20. Vanderbilt University
+19. Washington University in St Louis
+18. Brown University
+17. University of Notre Dame
+16. Duke University
+15. Northwestern University
+14. Amherst College
+13. Dartmouth College
+12. Swarthmore College
+11. Williams College
+10. California Institute of Technology
+9. Pomona College
+8. Columbia University in the City of New York
+7. University of Pennsylvania
+6. University of Chicago
+5. Massachusetts Institute of Technology
+4. Stanford University
+3. Yale University
+2. Harvard University
+1. Princeton University
