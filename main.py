@@ -5,6 +5,7 @@ import re
 us_news_url_25 = "http://colleges.usnews.rankingsandreviews.com/best-colleges/rankings/national-universities"
 niche_url_25 = "https://colleges.niche.com/rankings/best-colleges/"
 best_colleges_url_50 = "http://www.thebestcolleges.org/rankings/top-50/"
+best_schools_url_50 = "http://www.thebestschools.org/features/100-best-universities-in-world-today/"
 
 
 def get_html(url):
@@ -55,7 +56,7 @@ def scrape_niche(url):
     rank = 1
 
     for block in blocks:
-        schools.append(block.find('h3').find('a', href=True).string)
+        schools.append(block.find("h3").find("a", href=True).string)
         ranks.append(rank)
         rank += 1
 
@@ -78,12 +79,12 @@ def scrape_best_colleges(url):
     rank = 1
 
     for block in blocks:
-        header = block.find('h4')
+        header = block.find("h4")
 
         if header is None:
             continue
 
-        schools.append(header.find('a', href=True).string)
+        schools.append(header.find("a", href=True).string)
         ranks.append(rank)
         rank += 1
 
@@ -94,6 +95,33 @@ def scrape_best_colleges(url):
     print
 
 
+def scrape_best_schools(url):
+    html = get_html(url)
+
+    if html is None:  # deal with bad url requests
+        return None
+
+    blocks = html.find_all(name="h3", class_="college")
+    schools, ranks, locations = [], [], []
+
+    for block in blocks:
+        location = block.find_next_sibling().contents[1]
+        if "USA" not in location:
+            continue
+        schools.append(block.contents[1])
+        ranks.append(block.find("span").string)
+        locations.append(location)
+
+    print "****" + "BEST SCHOOLS" + "*" * 15
+    print schools,
+    print
+    print ranks,
+    print
+    print locations,
+    print
+
+
 #scrape_us_news(us_news_url_25)
 #scrape_niche(niche_url_25)
-scrape_best_colleges(best_colleges_url_50)
+#scrape_best_colleges(best_colleges_url_50)
+scrape_best_schools(best_schools_url_50)
