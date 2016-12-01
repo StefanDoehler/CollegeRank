@@ -119,7 +119,7 @@ regions = {
 }
 
 
-#  Takes a string in the form "city, State" where State is an abbreviation
+#  Takes a string in the form "city, state" where state is an abbreviation
 #  Returns a list of 3 elements: [city, state, region] where state is spelled out
 def parse_location(location):
     l = location.split(", ")
