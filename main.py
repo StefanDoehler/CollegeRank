@@ -1,12 +1,8 @@
 from bs4 import BeautifulSoup
 from urllib2 import Request, urlopen, HTTPError
 import re
+from common import urls, parse_location
 
-us_news_url_25 = "http://colleges.usnews.rankingsandreviews.com/best-colleges/rankings/national-universities"
-niche_url_25 = "https://colleges.niche.com/rankings/best-colleges/"
-best_colleges_url_50 = "http://www.thebestcolleges.org/rankings/top-50/"
-best_schools_url_50 = "http://www.thebestschools.org/features/100-best-universities-in-world-today/"
-college_raptor_url_50 = "https://www.collegeraptor.com/college-rankings/best-colleges-in-the-us/"
 
 def get_html(url):
     permissions = {
@@ -32,17 +28,15 @@ def scrape_us_news(url):
         return None
 
     blocks = html.find_all(name="div", class_="clearfix")
-    schools, ranks = [], []
+    result = {}
 
     for block in blocks[::2]:  # beginning with the first block, every other block contains school information
-        schools.append(block.find('h3').find('a', href=True).string)
-        ranks.append(re.search(r"#\d*", str(block)).group(0)[1:])
+        school = block.find("h3").find("a", href=True).string
+        rank = re.search(r"#\d*", str(block)).group(0)[1:]
+        location = block.find(name="div", class_="block-normal text-small").text
+        result[school] = [rank, location]
 
-    print "****" + "US NEWS" + "*"*20
-    print schools,
-    print
-    print ranks,
-    print
+    return result
 
 
 def scrape_niche(url):
@@ -52,19 +46,16 @@ def scrape_niche(url):
         return None
 
     blocks = html.find_all(name="div", class_="ranking-item__body")
-    schools, ranks = [], []
+    result = {}
     rank = 1
 
     for block in blocks:
-        schools.append(block.find("h3").find("a", href=True).string)
-        ranks.append(rank)
+        school = block.find("h3").find("a", href=True).string
+        location = block.find(name="li", class_="ranking-item__entity__tagline__item").text
+        result[school] = [rank, location]
         rank += 1
 
-    print "****" + "NICHE" + "*" * 25
-    print schools,
-    print
-    print ranks,
-    print
+    return result
 
 
 def scrape_best_colleges(url):
@@ -75,24 +66,21 @@ def scrape_best_colleges(url):
 
     chunk = html.find(name="ol", class_="directory-links")
     blocks = chunk.find_all("li")
-    schools, ranks = [], []
+    result = {}
     rank = 1
 
     for block in blocks:
         header = block.find("h4")
 
-        if header is None:
+        if header is None:  # not all blocks contain school names
             continue
 
-        schools.append(header.find("a", href=True).string)
-        ranks.append(rank)
+        school = header.find("a", href=True).string
+        location = block.find("strong").text
+        result[school] = [rank, location]
         rank += 1
 
-    print "****" + "BEST COLLEGES" + "*" * 15
-    print schools,
-    print
-    print ranks,
-    print
+    return result
 
 
 def scrape_best_schools(url):
@@ -102,25 +90,21 @@ def scrape_best_schools(url):
         return None
 
     blocks = html.find_all(name="h3", class_="college")
-    schools, ranks, locations = [], [], []
+    result = {}
     rank = 1
 
     for block in blocks:
         location = block.find_next_sibling().contents[1]
-        if "USA" not in location:
+
+        if "USA" not in location:  # do not include schools outside the US
             continue
-        schools.append(block.contents[1])
-        ranks.append(rank)
-        locations.append(location)
+
+        school = block.contents[1]
+        location = location[1:-6]  # remove "(" at beginning and ", USA" at end
+        result[school] = [rank, location]
         rank += 1
 
-    print "****" + "BEST SCHOOLS" + "*" * 15
-    print schools,
-    print
-    print ranks,
-    print
-    print locations,
-    print
+    return result
 
 
 def scrape_college_raptor(url):
@@ -130,19 +114,26 @@ def scrape_college_raptor(url):
         return None
 
     blocks = html.find_all(name="h2")
-    schools, ranks, locations = [], [], []
+    result = {}
     rank = 50
 
     for block in blocks:
-        location = block.find_next_sibling().find_next_sibling().text
         splice = 4 if rank >= 10 else 3
-        schools.append(block.text[splice:])
-        ranks.append(rank)
-        locations.append(location)
+        school = block.text[splice:]
+        location = block.find_next_sibling().find_next_sibling().text
+        result[school] = [rank, location]
         rank -= 1
 
-#scrape_us_news(us_news_url_25)
-#scrape_niche(niche_url_25)
-#scrape_best_colleges(best_colleges_url_50)
-#scrape_best_schools(best_schools_url_50)
-scrape_college_raptor(college_raptor_url_50)
+    return result
+
+lst = [scrape_us_news(urls["US_NEWS_25"]),
+scrape_niche(urls["NICHE_25"]),
+scrape_best_colleges(urls["BC_50"]),
+scrape_best_schools(urls["BS_50"]),
+scrape_college_raptor(urls["RAPTOR"])]
+for each in lst:
+    if each is not None:
+        print "v"*30
+        for school in each:
+            print str(each[school][0])+"||"+school+"||"+str(parse_location(each[school][1]))
+        print "^" * 30
