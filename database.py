@@ -8,20 +8,54 @@ def connect_db():
                              user=common.user,
                              passwd=common.password,
                              db=common.db_name)
-        return db.cursor()
+        return db
     except MySQLdb.Error as e:
         print e
         return False
 
 
 def create_schema():
-    cursor = connect_db()
+    connection = connect_db()
 
-    if cursor is False:
+    if connection is False:
         print "Database cannot be accessed at this time"
         return
 
-    school_table_sql = ""
-    cursor.close()
+    cursor = connection.cursor()
+    tables = {}
+    tables["Scores"] = (
+        """CREATE TABLE Scores(
+        score_ID int(11) NOT NULL AUTO_INCREMENT,
+        rank int(11),
+        average int(11),
+        num_lists int(11),
+        PRIMARY KEY (score_ID))"""
+    )
+    tables["Locations"] = (
+        """CREATE TABLE Locations(
+        location_ID int(11) NOT NULL AUTO_INCREMENT,
+        city varchar(40),
+        state varchar(15),
+        region varchar(10),
+        PRIMARY KEY (location_ID))"""
+    )
+    tables["Schools"] = (
+        """CREATE TABLE Schools(
+        name varchar(50) NOT NULL,
+        score int(11),
+        location int(11),
+        PRIMARY KEY (name),
+        FOREIGN KEY (score) REFERENCES Scores(score_ID),
+        FOREIGN KEY (location) REFERENCES Locations(location_ID))"""
+    )
 
-create_schema()
+    for name, schema in tables.iteritems():
+        try:
+            cursor.execute(schema)
+        except MySQLdb.Error as e:
+            print e
+
+    cursor.close()
+    connection.close()
+
+
