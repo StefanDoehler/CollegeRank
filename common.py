@@ -1,5 +1,10 @@
 # A module to provide a centralized location for custom functions and variables
 
+host = "localhost"
+user = "Stefan"
+password = "cpsc437"
+db_name = "CollegeRank"
+
 urls = {
     "US_NEWS_25": "http://colleges.usnews.rankingsandreviews.com/best-colleges/rankings/national-universities",
     "NICHE_25": "https://colleges.niche.com/rankings/best-colleges/",
