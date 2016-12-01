@@ -14,13 +14,14 @@ def connect_db():
         return False
 
 
-def create_db():
-    db = MySQLdb.connect(host="127.0.0.1",
-                         port=3306,
-                         user=common.user,
-                         passwd=common.password)
-    cursor = db.cursor()
-    sql = "CREATE DATABASE CollegeRank"
+def create_schema():
+    cursor = connect_db()
 
-create_db()
+    if cursor is False:
+        print "Database cannot be accessed at this time"
+        return
 
+    school_table_sql = ""
+    cursor.close()
+
+create_schema()

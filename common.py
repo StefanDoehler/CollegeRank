@@ -1,8 +1,8 @@
 # A module to provide a centralized location for custom functions and variables
 
-host = "localhost"
+host = "127.0.0.1"
 user = "Stefan"
-password = "cpsc437"
+password = "mysql"
 db_name = "CollegeRank"
 
 urls = {
