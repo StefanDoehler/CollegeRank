@@ -4,14 +4,11 @@ host = "127.0.0.1"
 user = "Stefan"
 password = "mysql"
 db_name = "CollegeRank"
-
-urls = {
-    "US_NEWS_25": "http://colleges.usnews.rankingsandreviews.com/best-colleges/rankings/national-universities",
-    "NICHE_25": "https://colleges.niche.com/rankings/best-colleges/",
-    "BC_50": "http://www.thebestcolleges.org/rankings/top-50/",
-    "BS_50": "http://www.thebestschools.org/features/100-best-universities-in-world-today/",
-    "RAPTOR": "https://www.collegeraptor.com/college-rankings/best-colleges-in-the-us/"
-}
+us_news_25_url = "http://colleges.usnews.rankingsandreviews.com/best-colleges/rankings/national-universities"
+niche_25_url = "https://colleges.niche.com/rankings/best-colleges/"
+bc_50_url = "http://www.thebestcolleges.org/rankings/top-50/"
+bs_50_url = "http://www.thebestschools.org/features/100-best-universities-in-world-today/"
+raptor_50_url = "https://www.collegeraptor.com/college-rankings/best-colleges-in-the-us/"
 
 states = {
     'AK': 'Alaska',

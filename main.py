@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 from urllib2 import Request, urlopen, HTTPError
 import re
+import common
 
 
 def get_html(url):
@@ -20,8 +21,8 @@ def get_html(url):
             return None
 
 
-def scrape_us_news(url):
-    html = get_html(url)
+def scrape_us_news():
+    html = get_html(common.us_news_25_url)
 
     if html is None:  # deal with bad url requests
         return None
@@ -33,13 +34,13 @@ def scrape_us_news(url):
         school = block.find("h3").find("a", href=True).string
         rank = re.search(r"#\d*", str(block)).group(0)[1:]
         location = block.find(name="div", class_="block-normal text-small").text
-        result[school] = [rank, location]
+        result[school] = [int(rank), location, 1, int(rank)]
 
     return result
 
 
-def scrape_niche(url):
-    html = get_html(url)
+def scrape_niche():
+    html = get_html(common.niche_25_url)
 
     if html is None:  # deal with bad url requests
         return None
@@ -51,14 +52,14 @@ def scrape_niche(url):
     for block in blocks:
         school = block.find("h3").find("a", href=True).string
         location = block.find(name="li", class_="ranking-item__entity__tagline__item").text
-        result[school] = [rank, location]
+        result[school] = [rank, location, 1, rank]
         rank += 1
 
     return result
 
 
-def scrape_best_colleges(url):
-    html = get_html(url)
+def scrape_best_colleges():
+    html = get_html(common.bc_50_url)
 
     if html is None:  # deal with bad url requests
         return None
@@ -76,14 +77,14 @@ def scrape_best_colleges(url):
 
         school = header.find("a", href=True).string
         location = block.find("strong").text
-        result[school] = [rank, location]
+        result[school] = [rank, location, 1, rank]
         rank += 1
 
     return result
 
 
-def scrape_best_schools(url):
-    html = get_html(url)
+def scrape_best_schools():
+    html = get_html(common.bs_50_url)
 
     if html is None:  # deal with bad url requests
         return None
@@ -100,14 +101,14 @@ def scrape_best_schools(url):
 
         school = block.contents[1]
         location = location[1:-6]  # remove "(" at beginning and ", USA" at end
-        result[school] = [rank, location]
+        result[school] = [rank, location, 1, rank]
         rank += 1
 
     return result
 
 
-def scrape_college_raptor(url):
-    html = get_html(url)
+def scrape_college_raptor():
+    html = get_html(common.raptor_50_url)
 
     if html is None:  # deal with bad url requests
         return None
@@ -120,7 +121,7 @@ def scrape_college_raptor(url):
         splice = 4 if rank >= 10 else 3
         school = block.text[splice:]
         location = block.find_next_sibling().find_next_sibling().text
-        result[school] = [rank, location]
+        result[school] = [rank, location, 1, rank]
         rank -= 1
 
     return result
