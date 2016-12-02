@@ -109,7 +109,6 @@ def calculate_average_rank_and_location(schools):
 
     for school, info in schools.iteritems():
         info[0] = parse_location(info[0])
-        print "count", info[1], "total", info[2], "average", info[2]/float(info[1])
-        info[2] = info[2]/info[1]
+        info[2] /= float(info[1])
 
     return schools

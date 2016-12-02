@@ -1,5 +1,6 @@
 from web_scrapers import *
 from data_manipulation import *
+import database
 import sys
 
 if __name__ == "__main__":
@@ -26,3 +27,11 @@ if __name__ == "__main__":
 
     proper_names = parse_school_names(school_list)
     final_list = calculate_average_rank_and_location(proper_names)
+
+    con = database.connect_db()
+    cursor = con.cursor()
+    for name, info in final_list.iteritems():
+        database.add_school(name, info, con, cursor)
+
+    cursor.close()
+    con.close()
