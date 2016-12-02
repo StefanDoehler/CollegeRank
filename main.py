@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 from urllib2 import Request, urlopen, HTTPError
 import re
-from common import urls, parse_location
 
 
 def get_html(url):
@@ -125,15 +124,3 @@ def scrape_college_raptor(url):
         rank -= 1
 
     return result
-
-lst = [scrape_us_news(urls["US_NEWS_25"]),
-scrape_niche(urls["NICHE_25"]),
-scrape_best_colleges(urls["BC_50"]),
-scrape_best_schools(urls["BS_50"]),
-scrape_college_raptor(urls["RAPTOR"])]
-for each in lst:
-    if each is not None:
-        print "v"*30
-        for school in each:
-            print str(each[school][0])+"||"+school+"||"+str(parse_location(each[school][1]))
-        print "^" * 30

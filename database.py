@@ -29,7 +29,8 @@ def create_schema():
         rank int(11),
         average int(11),
         num_lists int(11),
-        PRIMARY KEY (score_ID))"""
+        PRIMARY KEY (score_ID))
+        ENGINE=InnoDB"""
     )
     tables["Locations"] = (
         """CREATE TABLE Locations(
@@ -37,7 +38,8 @@ def create_schema():
         city varchar(40),
         state varchar(15),
         region varchar(10),
-        PRIMARY KEY (location_ID))"""
+        PRIMARY KEY (location_ID))
+        ENGINE=InnoDB"""
     )
     tables["Schools"] = (
         """CREATE TABLE Schools(
@@ -46,16 +48,21 @@ def create_schema():
         location int(11),
         PRIMARY KEY (name),
         FOREIGN KEY (score) REFERENCES Scores(score_ID),
-        FOREIGN KEY (location) REFERENCES Locations(location_ID))"""
+        FOREIGN KEY (location) REFERENCES Locations(location_ID))
+        ENGINE=InnoDB"""
     )
 
     for name, schema in tables.iteritems():
         try:
             cursor.execute(schema)
+            connection.commit()
         except MySQLdb.Error as e:
             print e
 
     cursor.close()
     connection.close()
+
+
+
 
 
