@@ -1,6 +1,5 @@
 from common import states, regions
 import re
-from main import scrape_niche, scrape_best_schools, scrape_best_colleges, scrape_college_raptor, scrape_us_news
 
 
 #  Takes a string in the form "city, state" where state is an abbreviation
@@ -23,6 +22,8 @@ def parse_location(location):
     return result
 
 
+# Take a list of school data sets, each in dictionaries, and combine them into one large data set,
+# returning a dictionary. Schools that are repeated have their count and total rank increased respectively
 def combine_data_sets(data_sets):
     result = {}
     for data_set in data_sets:
@@ -30,39 +31,48 @@ def combine_data_sets(data_sets):
             if school not in result:
                 result[school] = info
             else:
-                result[school][2] += 1        # increment the count by 1
-                result[school][3] += info[3]  # add to total rank
+                result[school][1] += 1        # increment the count by 1
+                result[school][2] += info[2]  # add to total rank
 
     return result
 
 
+# Take a dictionary of schools and combine entities that represent the same schools but
+# may have slightly different names.
+# For example "University of California--Los Angeles" and "University of California at Los Angeles"
+# are two different strings but represent the same school.
+# Return a dictionary with these repeated schools removed
 def parse_school_names(schools):
     result = {}
     locations = {}  # manage an extra dict to provide fast lookup for location
 
     for school, info in schools.iteritems():
-        location = info[1]
+        location = info[0]
 
         if location not in locations:
             result[school] = info
-            locations[location] = [info[0], school, info[2], info[3]]
+            locations[location] = [school, info[1], info[2]]
         else:
-            seen_school = locations[location]      # school that is already stored in results
+            seen_school = locations[location]              # school that is already stored in results
 
             if check_same_school(seen_school[1], school):  # schools have same name, spelled differently
-                result[seen_school][2] += info[2]  # update the count
-                result[seen_school][3] += info[3]  # update the total rank
-            else:  # schools have same location, but are not the same school
+                result[seen_school[0]][1] += info[1]       # update the count
+                result[seen_school[0]][2] += info[2]       # update the total rank
+            else:                                          # two different schools with same location
                 result[school] = info
 
     return result
 
 
+# Check two strings to see if they represent the same school name, returning True in the case
+# of a match and false otherwise.
+# The substring "&" is expanded to "and" while "-", "of", "and", "in", "at", "the", and "University"
+# are removed entirely.
 def check_same_school(name1, name2):
     n1 = re.sub(r"\([^)]*\)", "", name1)   # remove words inside parentheses
     n2 = re.sub(r"\([^)]*\)", "", name2)
 
-    n1 = n1.replace("&", "and")            # replace certain chars to remove unneeded identifiers
+    n1 = n1.replace("&", "and")            # replace certain strings to remove unneeded identifiers
     n1 = n1.replace("at", " ")
     n1 = n1.replace("of", " ")
     n1 = n1.replace("and", " ")
@@ -84,10 +94,10 @@ def check_same_school(name1, name2):
 
     return bool(set(n1) & set(n2))
 
-l = [scrape_niche(), scrape_us_news(), scrape_college_raptor(), scrape_best_colleges(), scrape_best_schools()]
-r = combine_data_sets(l)
-#for school, info in r.iteritems():
-#    print str(info[0])+' | '+school+' | '+info[1]+' | '+str(info[2])+' | '+str(info[3])
-final = parse_school_names(r)
-for school, info in final.iteritems():
-    print str(info[0])+' | '+school+' | '+info[1]+' | '+str(info[2])+' | '+str(info[3])
+
+# Take in a dictionary of schools and return the same dictionary with the total rank replaced by the average
+def calculate_average_rank(schools):
+    for school, info in schools.iteritems():
+        info[2] = info[2]/info[1]
+
+    return schools

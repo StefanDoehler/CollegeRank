@@ -1,0 +1,88 @@
+10 | Brown University | Providence, RI | 4 | 90
+6 | Rice University | Houston, TX | 4 | 91
+36 | University of Florida | Gainesville, FL | 2 | 80
+39 | Wesleyan University | Middletown, CT | 1 | 39
+34 | Bucknell University | Lewisburg, PA | 1 | 34
+20 | Washington & Lee University | Lexington, VA | 3 | 59
+41 | Harvey Mudd College | Claremont, CA | 7 | 169
+41 | University of California at Los Angeles | Los Angeles, CA | 5 | 146
+43 | University of Illinois at Urbana-Champaign | Urbana | 1 | 43
+48 | Arizona State University | Phoenix, AZ | 1 | 48
+41 | University of Pittsburgh | Pittsburgh, PA | 1 | 41
+21 | University of Michigan | Ann Arbor, MI | 3 | 61
+8 | University of Pennsylvania | Philadelphia, PA | 5 | 48
+49 | University of Rochester | Rochester, NY | 1 | 49
+32 | Vassar College | Poughkeepsie, NY | 1 | 32
+36 | University of California at Davis | Davis, CA | 1 | 36
+16 | University of California at San Francisco | San Francisco, CA | 1 | 16
+42 | Boston University | Boston, MA | 1 | 42
+18 | University of Wisconsin | Madison, WI | 1 | 18
+43 | Emory University | Atlanta, GA | 2 | 93
+38 | Soka University of America | Aliso Viejo, CA | 1 | 38
+19 | New York University | New York, NY | 2 | 27
+4 | Harvard University | Cambridge, MA | 5 | 11
+42 | Berea College | Berea, KY | 1 | 42
+48 | Boston College | Chestnut Hill, MA | 1 | 48
+44 | Davidson College | Davidson, CA | 2 | 73
+28 | Georgetown University | Washington, DC | 2 | 75
+30 | University of Maryland | College Park, MD | 1 | 30
+50 | Brandeis University | Waltham, MA | 1 | 50
+14 | Vanderbilt University | Nashville, TN | 4 | 85
+16 | California Institute of Technology | Pasadena, CA | 4 | 41
+28 | Georgia Institute of Technology | Atlanta, GA | 2 | 80
+40 | Barnard College | New York, NY | 1 | 40
+22 | University of Minnesota | Minneapolis-St. Paul, MN | 1 | 22
+29 | College of William and Mary | Williamsburg, VA | 2 | 34
+34 | University of California-Berkeley | Berkeley, CA | 2 | 57
+37 | Pennsylvania State University | University Park, PA | 1 | 37
+22 | Colgate University | Hamilton, NY | 3 | 85
+50 | University of California at Santa Cruz | Santa Cruz, CA | 1 | 50
+7 | Bowdoin College | Brunswick, ME | 3 | 71
+21 | University of Virginia-Main Campus | Charlottesville, VA | 2 | 36
+9 | Washington University in St. Louis | Saint Louis, MO | 2 | 57
+19 | Washington University in St Louis | St Louis, MO | 1 | 19
+10 | Johns Hopkins University | Baltimore, MD | 3 | 61
+34 | Rutgers University | New Brunswick, NJ | 1 | 34
+25 | Rockefeller University | New York, NY | 1 | 25
+12 | University of North Carolina | Chapel Hill, NC | 3 | 81
+1 | Stanford University | Stanford, CA | 5 | 20
+28 | University of Texas | Austin, TX | 2 | 65
+26 | University of Colorado | Boulder, CO | 1 | 26
+11 | Williams College | Williamstown, MA | 2 | 17
+31 | University of Texas Southwestern Medical Center | Dallas, TX | 1 | 31
+12 | Columbia University | New York, NY | 4 | 70
+32 | University of California at Irvine | Irvine, CA | 1 | 32
+14 | Amherst College | Amherst, MA | 2 | 21
+26 | Texas A&M University | College Station, TX | 2 | 77
+49 | Grinnell College | Grinnell, IA | 1 | 49
+12 | Swarthmore College | Swarthmore, PA | 2 | 15
+3 | Yale University | New Haven, CT | 5 | 28
+39 | Carnegie Mellon University | Pittsburgh, PA | 1 | 39
+21 | University of Illinois | Urbana-Champaign, IL | 1 | 21
+46 | University of Arizona | Tucson, AZ | 1 | 46
+38 | Purdue University | West Lafayette, IN | 2 | 76
+2 | Massachusetts Institute of Technology | Cambridge, MA | 4 | 18
+18 | University of Notre Dame | South Bend, IN | 3 | 65
+29 | University of California at Santa Barbara | Santa Barbara, CA | 1 | 29
+35 | University of Washington | Seattle, WA | 2 | 48
+4 | University of California at Berkeley | Berkeley, CA | 1 | 4
+47 | University of Utah | Salt Lake City, UT | 1 | 47
+37 | Middlebury College | Middlebury, VT | 2 | 86
+40 | Ohio State University | Columbus, OH | 1 | 40
+24 | Northwestern University | Evanston, IL | 4 | 104
+30 | Haverford College | Haverford, PA | 1 | 30
+27 | University of California-Davis | Davis, CA | 1 | 27
+23 | Wellesley College | Wellesley, MA | 2 | 67
+19 | University of Chicago | Chicago, IL | 5 | 75
+26 | Cornell University | Ithaca, NY | 3 | 68
+35 | University of Michigan-Ann Arbor | Ann Arbor, MI | 1 | 35
+11 | Duke University | Durham, NC | 5 | 71
+25 | Tufts University | Medford, MA | 2 | 58
+3 | Massachusetts Institute of Technology (MIT) | Cambridge, MA | 1 | 3
+21 | Carleton College | Northfield, MN | 3 | 85
+24 | Washington University | St. Louis, MO | 1 | 24
+13 | Dartmouth College | Hanover, NH | 3 | 50
+5 | Princeton University | Princeton, NJ | 5 | 13
+22 | Cooper Union | New York, NY | 1 | 22
+12 | University of California at San Diego | San Diego, CA | 1 | 12
+47 | Hamilton College | Clinton, NY | 1 | 47

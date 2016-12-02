@@ -34,7 +34,7 @@ def scrape_us_news():
         school = block.find("h3").find("a", href=True).string
         rank = re.search(r"#\d*", str(block)).group(0)[1:]
         location = block.find(name="div", class_="block-normal text-small").text
-        result[school] = [int(rank), location, 1, int(rank)]
+        result[school] = [location, 1, int(rank)]
 
     return result
 
@@ -52,7 +52,7 @@ def scrape_niche():
     for block in blocks:
         school = block.find("h3").find("a", href=True).string
         location = block.find(name="li", class_="ranking-item__entity__tagline__item").text
-        result[school] = [rank, location, 1, rank]
+        result[school] = [location, 1, rank]
         rank += 1
 
     return result
@@ -77,7 +77,7 @@ def scrape_best_colleges():
 
         school = header.find("a", href=True).string
         location = block.find("strong").text
-        result[school] = [rank, location, 1, rank]
+        result[school] = [location, 1, rank]
         rank += 1
 
     return result
@@ -101,7 +101,7 @@ def scrape_best_schools():
 
         school = block.contents[1]
         location = location[1:-6]  # remove "(" at beginning and ", USA" at end
-        result[school] = [rank, location, 1, rank]
+        result[school] = [location, 1, rank]
         rank += 1
 
     return result
@@ -121,7 +121,7 @@ def scrape_college_raptor():
         splice = 4 if rank >= 10 else 3
         school = block.text[splice:]
         location = block.find_next_sibling().find_next_sibling().text
-        result[school] = [rank, location, 1, rank]
+        result[school] = [location, 1, rank]
         rank -= 1
 
     return result
