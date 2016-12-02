@@ -25,7 +25,7 @@ def scrape_us_news():
     html = get_html(common.us_news_25_url)
 
     if html is None:  # deal with bad url requests
-        return None
+        return common.us_news_25_url
 
     blocks = html.find_all(name="div", class_="clearfix")
     result = {}
@@ -43,7 +43,7 @@ def scrape_niche():
     html = get_html(common.niche_25_url)
 
     if html is None:  # deal with bad url requests
-        return None
+        return common.niche_25_url
 
     blocks = html.find_all(name="div", class_="ranking-item__body")
     result = {}
@@ -62,7 +62,7 @@ def scrape_best_colleges():
     html = get_html(common.bc_50_url)
 
     if html is None:  # deal with bad url requests
-        return None
+        return common.bc_50_url
 
     chunk = html.find(name="ol", class_="directory-links")
     blocks = chunk.find_all("li")
@@ -87,7 +87,7 @@ def scrape_best_schools():
     html = get_html(common.bs_50_url)
 
     if html is None:  # deal with bad url requests
-        return None
+        return common.bs_50_url
 
     blocks = html.find_all(name="h3", class_="college")
     result = {}
@@ -111,7 +111,7 @@ def scrape_college_raptor():
     html = get_html(common.raptor_50_url)
 
     if html is None:  # deal with bad url requests
-        return None
+        return common.raptor_50_url
 
     blocks = html.find_all(name="h2")
     result = {}

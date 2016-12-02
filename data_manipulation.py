@@ -25,6 +25,9 @@ def parse_location(location):
 # Take a list of school data sets, each in dictionaries, and combine them into one large data set,
 # returning a dictionary. Schools that are repeated have their count and total rank increased respectively
 def combine_data_sets(data_sets):
+    if data_sets is None:
+        return None
+
     result = {}
     for data_set in data_sets:
         for school, info in data_set.iteritems():
@@ -43,6 +46,9 @@ def combine_data_sets(data_sets):
 # are two different strings but represent the same school.
 # Return a dictionary with these repeated schools removed
 def parse_school_names(schools):
+    if schools is None:
+        return None
+
     result = {}
     locations = {}  # manage an extra dict to provide fast lookup for location
 
@@ -55,7 +61,7 @@ def parse_school_names(schools):
         else:
             seen_school = locations[location]              # school that is already stored in results
 
-            if check_same_school(seen_school[1], school):  # schools have same name, spelled differently
+            if check_same_school(seen_school[0], school):  # schools have same name, spelled differently
                 result[seen_school[0]][1] += info[1]       # update the count
                 result[seen_school[0]][2] += info[2]       # update the total rank
             else:                                          # two different schools with same location
@@ -95,9 +101,15 @@ def check_same_school(name1, name2):
     return bool(set(n1) & set(n2))
 
 
-# Take in a dictionary of schools and return the same dictionary with the total rank replaced by the average
-def calculate_average_rank(schools):
+# Take in a dictionary of schools and return the same dictionary with the total rank
+# replaced by the average rank, and the location expanded
+def calculate_average_rank_and_location(schools):
+    if schools is None:
+        return None
+
     for school, info in schools.iteritems():
+        info[0] = parse_location(info[0])
+        print "count", info[1], "total", info[2], "average", info[2]/float(info[1])
         info[2] = info[2]/info[1]
 
     return schools
