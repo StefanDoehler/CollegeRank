@@ -7,10 +7,10 @@ from flask import Flask, request, session, g, redirect, url_for, \
 app = Flask(__name__)
 app.config.from_object(__name__)
 
-#Load default configuration and overried configuration from envvar
+#Load default configuration and override configuration from envvar
 app.config.update(dict(
     DATABASE=os.path.join(app.root_path, 'flaskr.db'),
-    SECRET_KEY='development key',
+    SECRET_KEY='xxxxxx',
     USERNAME='admin',
     PASSWORD='default'
 ))
