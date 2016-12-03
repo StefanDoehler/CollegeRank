@@ -114,6 +114,47 @@ def delete_tables():
     connection.close()
 
 
+def query_all_schools(connection, cursor, order, limit):
+    cursor.execute("""
+        SELECT a.name, b.average, b.num_lists, c.city, c.state, c.region FROM Schools AS a
+         INNER JOIN Scores AS b ON a.score = b.score_ID
+          INNER JOIN Locations AS c ON a.location = c.location_ID
+           ORDER BY b.average
+            LIMIT %s
+    """, limit)
+
+    return cursor.fetchall()
+
+
+def query_by_state(state, order, limit):
+    cursor.execute("""
+        SELECT a.name, b.average, b.num_lists, c.city, c.state, c.region FROM schools AS a
+         INNER JOIN Scores AS b ON a.score = b.score_ID
+          INNER JOIN (SELECT * FROM Locations AS c WHERE state = %s) AS c ON a.location = c.location_ID
+           ORDER BY b.average
+            LIMIT %s
+    """, (state, limit))
+
+    return cursor.fetchall()
+
+
+def query_by_region(region, order, limit):
+    cursor.execute("""
+        SELECT a.name, b.average, b.num_lists, c.city, c.state, c.region FROM schools AS a
+         INNER JOIN Scores AS b ON a.score = b.score_ID
+          INNER JOIN (SELECT * FROM Locations AS c WHERE region = %s) AS c ON a.location = c.location_ID
+           ORDER BY b.average
+            LIMIT %s
+    """, (region, limit))
+
+    return cursor.fetchall()
+
+def sort_alphabetically(arg):
+    cursor.execute("""
+
+    """)
+
+
 #create_schema()
 #cursor = con.cursor()
 #add_school("Yale University", [["New Haven", "Connecticut", "Northeast"], 5, 16], con, cursor)
@@ -122,3 +163,8 @@ def delete_tables():
 #con.close()
 #delete_tables()
 #create_schema()
+c = connect_db()
+cursor = c.cursor()
+l = query_by_region("West", 20)
+for school in l:
+    print school
