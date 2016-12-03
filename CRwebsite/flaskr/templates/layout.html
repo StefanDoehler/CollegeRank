@@ -2,16 +2,12 @@
 <title>Flaskr</title>
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 <div class=page>
-  <h1>Flaskr</h1>
-  <div class=metanav>
-  {% if not session.logged_in %}
-    <a href="{{ url_for('login') }}">log in</a>
-  {% else %}
-    <a href="{{ url_for('logout') }}">log out</a>
-  {% endif %}
-  </div>
+  <h1><center>CollegeRank</center></h1>
+  <br/>
+  <h2>An agglomeration of several ranking methods designed to reveal the top undergraduate institutions in the United States.</h2>
   {% for message in get_flashed_messages() %}
     <div class=flash>{{ message }}</div>
   {% endfor %}
+  <input type="submit" name="data" value="Get Data">
   {% block body %}{% endblock %}
 </div>
