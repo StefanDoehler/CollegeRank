@@ -18,4 +18,31 @@
     <li><em>Unbelievable.  No entries here so far</em>
   {% endfor %}
   </ul>
+  <table class="table pure-table pure-table-horizontal">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Average</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Region</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    {% set rank = 1 %}
+    {% for school in schools %}
+      <tr>
+        <td>{{ rank }}</td>
+        <td>{{ school[0] }}</td>
+        <td>{{ school[1] }}</td>
+        <td>{{ school[2] }}</td>
+        <td>{{ school[3] }}</td>
+        <td>{{ school[4] }}</td>
+      </tr>
+    {% set rank = rank + 1 %}
+    {% endfor %}
+    </tbody>
+  </table>
 {% endblock %}
