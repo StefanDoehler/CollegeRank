@@ -31,6 +31,10 @@ if __name__ == "__main__":
     con = database.connect_db()
     cursor = con.cursor()
     for name, info in final_list.iteritems():
+        if not info[0]:
+            continue
+    #    print name, info
+    #    print name, info[0][0], info[0][1], info[0][2], info[1], info[2]
         database.add_school(name, info, con, cursor)
 
     cursor.close()

@@ -50,22 +50,24 @@ def parse_school_names(schools):
         return None
 
     result = {}
-    locations = {}  # manage an extra dict to provide fast lookup for location
 
     for school, info in schools.iteritems():
-        location = info[0]
-
-        if location not in locations:
-            result[school] = info
-            locations[location] = [school, info[1], info[2]]
-        else:
-            seen_school = locations[location]              # school that is already stored in results
-
-            if check_same_school(seen_school[0], school):  # schools have same name, spelled differently
-                result[seen_school[0]][1] += info[1]       # update the count
-                result[seen_school[0]][2] += info[2]       # update the total rank
-            else:                                          # two different schools with same location
+        # school, info
+        if school not in result:
+            n = 1
+            for seen_school in result:
+                location1 = result[seen_school][0]
+                location2 = info[0]
+                if check_same_school(seen_school, school) and location1 == location2:
+                    result[seen_school][1] += info[1]
+                    result[seen_school][2] += info[2]
+                    n = 0
+                    break
+            if n == 1:
                 result[school] = info
+        else:
+            result[school][1] += info[1]  # update the count
+            result[school][2] += info[2]  # update the total rank
 
     return result
 
@@ -80,20 +82,13 @@ def check_same_school(name1, name2):
 
     n1 = n1.replace("&", "and")            # replace certain strings to remove unneeded identifiers
     n1 = n1.replace("at", " ")
-    n1 = n1.replace("of", " ")
-    n1 = n1.replace("and", " ")
-    n1 = n1.replace("in", " ")
-    n1 = n1.replace("the", " ")
-    n1 = n1.replace("-", "")
-    n1 = n1.replace("University", " ")
-    n2 = n2.replace("&", "and")
-    n2 = n2.replace("at", " ")
-    n2 = n2.replace("of", " ")
-    n2 = n2.replace("and", " ")
-    n2 = n2.replace("in", " ")
-    n2 = n2.replace("the", " ")
-    n2 = n2.replace("-", "")
-    n2 = n2.replace("University", " ")
+    n1 = n1.replace("of", " ").replace("and", " ")
+    n1 = n1.replace("in", " ").replace("the", " ").replace("-", "")
+    n1 = n1.replace("University", " ").replace("College", " ").replace("California", " ")
+    n2 = n2.replace("&", "and").replace("at", " ")
+    n2 = n2.replace("of", " ").replace("and", " ")
+    n2 = n2.replace("in", " ").replace("the", " ").replace("-", "")
+    n2 = n2.replace("University", " ").replace("College", " ").replace("California", " ")
 
     n1 = n1.split()                        # convert the strings to lists, splitting at whitespace and '_'
     n2 = n2.split()

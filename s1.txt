@@ -1,102 +1,86 @@
-True
-10 | Brown University | Providence, RI | 4 | 90
-6 | Rice University | Houston, TX | 4 | 91
-36 | University of Florida | Gainesville, FL | 2 | 80
-39 | Wesleyan University | Middletown, CT | 1 | 39
-34 | Bucknell University | Lewisburg, PA | 1 | 34
-20 | Washington & Lee University | Lexington, VA | 1 | 20
-41 | Harvey Mudd College | Claremont, CA | 2 | 73
-41 | University of California at Los Angeles | Los Angeles, CA | 1 | 41
-43 | University of Illinois at Urbana-Champaign | Urbana | 1 | 43
-48 | Arizona State University | Phoenix, AZ | 1 | 48
-41 | University of Pittsburgh | Pittsburgh, PA | 1 | 41
-21 | University of Michigan | Ann Arbor, MI | 2 | 38
-35 | University of Washington | Seattle, WA | 2 | 48
-49 | University of Rochester | Rochester, NY | 1 | 49
-32 | Vassar College | Poughkeepsie, NY | 1 | 32
-36 | University of California at Davis | Davis, CA | 1 | 36
-16 | University of California at San Francisco | San Francisco, CA | 1 | 16
-27 | Claremont McKenna College | Claremont, CA | 2 | 52
-42 | Boston University | Boston, MA | 1 | 42
-18 | University of Wisconsin | Madison, WI | 1 | 18
-43 | Emory University | Atlanta, GA | 2 | 93
-23 | University of Michigan - Ann Arbor | Ann Arbor, MI | 1 | 23
-10 | University of California at Los Angeles (UCLA) | Los Angeles, CA | 1 | 10
-38 | Soka University of America | Aliso Viejo, CA | 1 | 38
-19 | New York University | New York, NY | 1 | 19
-25 | Washington and Lee University | Lexington, VA | 2 | 39
-4 | Harvard University | Cambridge, MA | 5 | 11
-42 | Berea College | Berea, KY | 1 | 42
-48 | Boston College | Chestnut Hill, MA | 1 | 48
-44 | Davidson College | Davidson, CA | 2 | 73
-28 | Georgetown University | Washington, DC | 2 | 75
-30 | University of Maryland | College Park, MD | 1 | 30
-50 | Brandeis University | Waltham, MA | 1 | 50
-14 | Vanderbilt University | Nashville, TN | 4 | 85
-26 | University of Colorado | Boulder, CO | 1 | 26
-28 | Georgia Institute of Technology | Atlanta, GA | 2 | 80
-40 | Barnard College | New York, NY | 1 | 40
-22 | University of Minnesota | Minneapolis-St. Paul, MN | 1 | 22
-29 | College of William and Mary | Williamsburg, VA | 1 | 29
-34 | University of California-Berkeley | Berkeley, CA | 2 | 57
-37 | Pennsylvania State University | University Park, PA | 1 | 37
-22 | Colgate University | Hamilton, NY | 3 | 85
-50 | University of California at Santa Cruz | Santa Cruz, CA | 1 | 50
-7 | Bowdoin College | Brunswick, ME | 3 | 71
-21 | University of Virginia-Main Campus | Charlottesville, VA | 1 | 21
-9 | Washington University in St. Louis | Saint Louis, MO | 2 | 57
-19 | Washington University in St Louis | St Louis, MO | 1 | 19
-10 | Johns Hopkins University | Baltimore, MD | 3 | 61
-34 | Rutgers University | New Brunswick, NJ | 1 | 34
-25 | Rockefeller University | New York, NY | 1 | 25
-12 | University of North Carolina | Chapel Hill, NC | 2 | 39
-1 | Stanford University | Stanford, CA | 5 | 20
-28 | University of Texas | Austin, TX | 1 | 28
-16 | California Institute of Technology | Pasadena, CA | 3 | 35
-11 | Williams College | Williamstown, MA | 2 | 17
-15 | Pomona College | Claremont, CA | 3 | 44
-17 | University of Southern California | Los Angeles, CA | 2 | 50
-31 | University of Texas Southwestern Medical Center | Dallas, TX | 1 | 31
-12 | Columbia University | New York, NY | 4 | 70
-32 | University of California at Irvine | Irvine, CA | 1 | 32
-14 | Amherst College | Amherst, MA | 2 | 21
-15 | University of Virginia | Charlottesville, VA | 1 | 15
-26 | Texas A&M University | College Station, TX | 2 | 77
-49 | Grinnell College | Grinnell, IA | 1 | 49
-12 | Swarthmore College | Swarthmore, PA | 2 | 15
-3 | Yale University | New Haven, CT | 5 | 28
-47 | University of Utah | Salt Lake City, UT | 1 | 47
-21 | University of Illinois | Urbana-Champaign, IL | 1 | 21
-46 | University of Arizona | Tucson, AZ | 1 | 46
-38 | Purdue University | West Lafayette, IN | 2 | 76
-2 | Massachusetts Institute of Technology | Cambridge, MA | 4 | 18
-18 | University of Notre Dame | South Bend, IN | 3 | 65
-29 | University of California at Santa Barbara | Santa Barbara, CA | 1 | 29
-8 | University of Pennsylvania | Philadelphia, PA | 5 | 48
-4 | University of California at Berkeley | Berkeley, CA | 1 | 4
-42 | University of North Carolina at Chapel Hill | Chapel Hill, NC | 1 | 42
-37 | Middlebury College | Middlebury, VT | 2 | 86
-37 | University of Texas at Austin | Austin, TX | 1 | 37
-35 | University of Michigan-Ann Arbor | Ann Arbor, MI | 1 | 35
-24 | Northwestern University | Evanston, IL | 4 | 104
-30 | Haverford College | Haverford, PA | 1 | 30
-27 | University of California-Davis | Davis, CA | 1 | 27
-40 | Ohio State University | Columbus, OH | 1 | 40
-45 | University of California-Los Angeles | Los Angeles, CA | 1 | 45
-23 | Wellesley College | Wellesley, MA | 2 | 67
-19 | University of Chicago | Chicago, IL | 5 | 75
-26 | Cornell University | Ithaca, NY | 3 | 68
-11 | Duke University | Durham, NC | 5 | 71
-25 | Tufts University | Medford, MA | 2 | 58
-8 | Columbia University in the City of New York | New York, NY | 1 | 8
-39 | Carnegie Mellon University | Pittsburgh, PA | 1 | 39
-3 | Massachusetts Institute of Technology (MIT) | Cambridge, MA | 1 | 3
-21 | Carleton College | Northfield, MN | 3 | 85
-24 | Washington University | St. Louis, MO | 1 | 24
-6 | California Institute of Technology (Caltech) | Pasadena, CA | 1 | 6
-13 | Dartmouth College | Hanover, NH | 3 | 50
-5 | Princeton University | Princeton, NJ | 5 | 13
-22 | Cooper Union | New York, NY | 1 | 22
-12 | University of California at San Diego | San Diego, CA | 1 | 12
-5 | The College of William and Mary | Williamsburg, VA | 1 | 5
-47 | Hamilton College | Clinton, NY | 1 | 47
+Brown University Providence Rhode Island Northeast 4 22.5
+Rice University Houston Texas South 4 22.75
+University of Florida Gainesville Florida South 2 40.0
+Wesleyan University Middletown Connecticut Northeast 1 39.0
+Bucknell University Lewisburg Pennsylvania Northeast 1 34.0
+Washington & Lee University Lexington Virginia South 3 19.6666666667
+Harvey Mudd College Claremont California West 7 24.1428571429
+University of California at Los Angeles Los Angeles California West 5 29.2
+Arizona State University Phoenix Arizona West 1 48.0
+University of Pittsburgh Pittsburgh Pennsylvania Northeast 1 41.0
+University of Michigan Ann Arbor Michigan West 3 20.3333333333
+University of Washington Seattle Washington West 2 24.0
+University of Rochester Rochester New York Northeast 1 49.0
+Vassar College Poughkeepsie New York Northeast 1 32.0
+University of California at Davis Davis California West 1 36.0
+University of California at San Francisco San Francisco California West 1 16.0
+Boston University Boston Massachusetts Northeast 1 42.0
+University of Wisconsin Madison Wisconsin Midwest 1 18.0
+Emory University Atlanta Georgia South 2 46.5
+Soka University of America Aliso Viejo California West 1 38.0
+New York University New York New York Northeast 2 13.5
+Harvard University Cambridge Massachusetts Northeast 5 2.2
+Berea College Berea Kentucky South 1 42.0
+Boston College Chestnut Hill Massachusetts Northeast 1 48.0
+Davidson College Davidson North Carolina South 2 36.5
+Georgetown University Washington District of Columbia Northeast 2 37.5
+University of Maryland College Park Maryland Northeast 1 30.0
+Brandeis University Waltham Massachusetts Northeast 1 50.0
+Vanderbilt University Nashville Tennessee South 4 21.25
+California Institute of Technology Pasadena California West 4 10.25
+Georgia Institute of Technology Atlanta Georgia South 2 40.0
+Barnard College New York New York Northeast 1 40.0
+University of Minnesota Minneapolis-St. Paul Minnesota Midwest 1 22.0
+College of William and Mary Williamsburg Virginia South 2 17.0
+University of California-Berkeley Berkeley California West 2 28.5
+Pennsylvania State University University Park Pennsylvania Northeast 1 37.0
+Colgate University Hamilton New York Northeast 3 28.3333333333
+University of California at Santa Cruz Santa Cruz California West 1 50.0
+Bowdoin College Brunswick Maine Northeast 3 23.6666666667
+University of Virginia-Main Campus Charlottesville Virginia South 2 18.0
+Washington University in St. Louis St. Louis Missouri Midwest 3 27.0
+Washington University in St Louis St Louis Missouri Midwest 1 19.0
+Johns Hopkins University Baltimore Maryland Northeast 3 20.3333333333
+Rutgers University New Brunswick New Jersey Northeast 1 34.0
+Rockefeller University New York New York Northeast 1 25.0
+University of North Carolina Chapel Hill North Carolina South 3 27.0
+Stanford University Stanford California West 5 4.0
+University of Texas Austin Texas South 2 32.5
+University of Colorado Boulder Colorado West 1 26.0
+Williams College Williamstown Massachusetts Northeast 2 8.5
+University of Texas Southwestern Medical Center Dallas Texas South 1 31.0
+Columbia University New York New York Northeast 4 17.5
+University of California at Irvine Irvine California West 1 32.0
+Amherst College Amherst Massachusetts Northeast 2 10.5
+Texas A&M University College Station Texas South 2 38.5
+Grinnell College Grinnell Iowa Midwest 1 49.0
+Swarthmore College Swarthmore Pennsylvania Northeast 2 7.5
+Yale University New Haven Connecticut Northeast 5 5.6
+Carnegie Mellon University Pittsburgh Pennsylvania Northeast 1 39.0
+University of Illinois Urbana-Champaign Illinois Midwest 1 21.0
+University of Arizona Tucson Arizona West 1 46.0
+Purdue University West Lafayette Indiana Midwest 2 38.0
+Massachusetts Institute of Technology Cambridge Massachusetts Northeast 4 4.5
+University of Notre Dame South Bend Indiana Midwest 3 21.6666666667
+University of California at Santa Barbara Santa Barbara California West 1 29.0
+University of Pennsylvania Philadelphia Pennsylvania Northeast 5 9.6
+University of California at Berkeley Berkeley California West 1 4.0
+University of Utah Salt Lake City Utah West 1 47.0
+Middlebury College Middlebury Vermont Northeast 2 43.0
+Ohio State University Columbus Ohio Midwest 1 40.0
+Northwestern University Evanston Illinois Midwest 4 26.0
+Haverford College Haverford Pennsylvania Northeast 1 30.0
+University of California-Davis Davis California West 1 27.0
+Wellesley College Wellesley Massachusetts Northeast 2 33.5
+University of Chicago Chicago Illinois Midwest 5 15.0
+Cornell University Ithaca New York Northeast 3 22.6666666667
+University of Michigan-Ann Arbor Ann Arbor Michigan West 1 35.0
+Duke University Durham North Carolina South 5 14.2
+Tufts University Medford Massachusetts Northeast 2 29.0
+Massachusetts Institute of Technology (MIT) Cambridge Massachusetts Northeast 1 3.0
+Carleton College Northfield Minnesota Midwest 3 28.3333333333
+Dartmouth College Hanover New Hampshire Northeast 3 16.6666666667
+Princeton University Princeton New Jersey Northeast 5 2.6
+Cooper Union New York New York Northeast 1 22.0
+University of California at San Diego San Diego California West 1 12.0
+Hamilton College Clinton New York Northeast 1 47.0

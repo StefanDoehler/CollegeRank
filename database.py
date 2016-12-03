@@ -22,26 +22,24 @@ def create_schema():
         return
 
     cursor = connection.cursor()
-    tables = {}
-    tables["Scores"] = (
+    create_scores = (
         """CREATE TABLE Scores(
         score_ID int(11) NOT NULL AUTO_INCREMENT,
-        rank int(11),
-        average int(11),
+        average float(11),
         num_lists int(11),
         PRIMARY KEY (score_ID))
         ENGINE=InnoDB"""
     )
-    tables["Locations"] = (
+    create_locations = (
         """CREATE TABLE Locations(
         location_ID int(11) NOT NULL AUTO_INCREMENT,
         city varchar(40),
-        state varchar(15),
-        region varchar(10),
+        state varchar(25),
+        region varchar(15),
         PRIMARY KEY (location_ID))
         ENGINE=InnoDB"""
     )
-    tables["Schools"] = (
+    create_schools = (
         """CREATE TABLE Schools(
         name varchar(50) NOT NULL,
         score int(11),
@@ -52,19 +50,20 @@ def create_schema():
         ENGINE=InnoDB"""
     )
 
-    for name, schema in tables.iteritems():
-        try:
-            cursor.execute(schema)
-            connection.commit()
-        except MySQLdb.Error as e:
-            print e
+    try:
+        cursor.execute(create_scores)
+        cursor.execute(create_locations)
+        cursor.execute(create_schools)
+        connection.commit()
+    except MySQLdb.Error as e:
+        print e
 
     cursor.close()
     connection.close()
 
 
 def add_school(school_name, school_info, connection, cursor):
-    if school_name is None or school_info is None or school_info[0] is None:  # if data corrupted, don't add to database
+    if school_name is None or school_info is None or not school_info[0]:  # if data corrupted, don't add to database
         return
 
     location, count, average_rank = school_info[0], school_info[1], school_info[2]
@@ -89,8 +88,31 @@ def add_school(school_name, school_info, connection, cursor):
     location_fk = cursor.lastrowid                       # get the location foreign key
     cursor.execute(score_sql, (average_rank, count))
     score_fk = cursor.lastrowid                          # get the score foreign key
-    cursor.execute(school_sql, (school_name, score_fk, location_fk))
+    try:
+        cursor.execute(school_sql, (school_name, score_fk, location_fk))
+    except MySQLdb.Error as e:
+        print e
     connection.commit()
+
+
+def delete_tables():
+    connection = connect_db()
+
+    if connection is False:
+        print "Database cannot be accessed at this time"
+        return
+
+    cursor = connection.cursor()
+    try:
+        cursor.execute("DROP TABLE Schools")
+        cursor.execute("DROP TABLE Scores")
+        cursor.execute("DROP TABLE Locations")
+    except MySQLdb.Error as e:
+        print e
+
+    cursor.close()
+    connection.close()
+
 
 #create_schema()
 #cursor = con.cursor()
@@ -98,3 +120,5 @@ def add_school(school_name, school_info, connection, cursor):
 #add_school("USF", [["San Francisco", "California", "West"], 2, 33], con, cursor)
 #cursor.close()
 #con.close()
+#delete_tables()
+#create_schema()
