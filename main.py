@@ -3,6 +3,7 @@ from data_manipulation import *
 import database
 import sys
 
+# scrapes the data from the websites, parses and manipulates returned data, and adds the data to the database
 if __name__ == "__main__":
     data_sets = []
     possible_data_sets = [

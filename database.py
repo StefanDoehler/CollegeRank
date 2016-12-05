@@ -163,13 +163,3 @@ def query_by_region(region, limit):
     connection.close()
 
     return result
-
-
-def sort_alphabetically(arg):
-    connection = connect_db()
-    cursor = connection.cursor()
-    cursor.execute("""
-
-    """)
-    cursor.close()
-    connection.close()
