@@ -1,86 +1,25 @@
-Brown University Providence Rhode Island Northeast 4 22.5
-Rice University Houston Texas South 4 22.75
-University of Florida Gainesville Florida South 2 40.0
-Wesleyan University Middletown Connecticut Northeast 1 39.0
-Bucknell University Lewisburg Pennsylvania Northeast 1 34.0
-Washington & Lee University Lexington Virginia South 3 19.6666666667
-Harvey Mudd College Claremont California West 7 24.1428571429
-University of California at Los Angeles Los Angeles California West 5 29.2
-Arizona State University Phoenix Arizona West 1 48.0
-University of Pittsburgh Pittsburgh Pennsylvania Northeast 1 41.0
-University of Michigan Ann Arbor Michigan West 3 20.3333333333
-University of Washington Seattle Washington West 2 24.0
-University of Rochester Rochester New York Northeast 1 49.0
-Vassar College Poughkeepsie New York Northeast 1 32.0
-University of California at Davis Davis California West 1 36.0
-University of California at San Francisco San Francisco California West 1 16.0
-Boston University Boston Massachusetts Northeast 1 42.0
-University of Wisconsin Madison Wisconsin Midwest 1 18.0
-Emory University Atlanta Georgia South 2 46.5
-Soka University of America Aliso Viejo California West 1 38.0
-New York University New York New York Northeast 2 13.5
-Harvard University Cambridge Massachusetts Northeast 5 2.2
-Berea College Berea Kentucky South 1 42.0
-Boston College Chestnut Hill Massachusetts Northeast 1 48.0
-Davidson College Davidson North Carolina South 2 36.5
-Georgetown University Washington District of Columbia Northeast 2 37.5
-University of Maryland College Park Maryland Northeast 1 30.0
-Brandeis University Waltham Massachusetts Northeast 1 50.0
-Vanderbilt University Nashville Tennessee South 4 21.25
-California Institute of Technology Pasadena California West 4 10.25
-Georgia Institute of Technology Atlanta Georgia South 2 40.0
-Barnard College New York New York Northeast 1 40.0
-University of Minnesota Minneapolis-St. Paul Minnesota Midwest 1 22.0
-College of William and Mary Williamsburg Virginia South 2 17.0
-University of California-Berkeley Berkeley California West 2 28.5
-Pennsylvania State University University Park Pennsylvania Northeast 1 37.0
-Colgate University Hamilton New York Northeast 3 28.3333333333
-University of California at Santa Cruz Santa Cruz California West 1 50.0
-Bowdoin College Brunswick Maine Northeast 3 23.6666666667
-University of Virginia-Main Campus Charlottesville Virginia South 2 18.0
-Washington University in St. Louis St. Louis Missouri Midwest 3 27.0
-Washington University in St Louis St Louis Missouri Midwest 1 19.0
-Johns Hopkins University Baltimore Maryland Northeast 3 20.3333333333
-Rutgers University New Brunswick New Jersey Northeast 1 34.0
-Rockefeller University New York New York Northeast 1 25.0
-University of North Carolina Chapel Hill North Carolina South 3 27.0
-Stanford University Stanford California West 5 4.0
-University of Texas Austin Texas South 2 32.5
-University of Colorado Boulder Colorado West 1 26.0
-Williams College Williamstown Massachusetts Northeast 2 8.5
-University of Texas Southwestern Medical Center Dallas Texas South 1 31.0
-Columbia University New York New York Northeast 4 17.5
-University of California at Irvine Irvine California West 1 32.0
-Amherst College Amherst Massachusetts Northeast 2 10.5
-Texas A&M University College Station Texas South 2 38.5
-Grinnell College Grinnell Iowa Midwest 1 49.0
-Swarthmore College Swarthmore Pennsylvania Northeast 2 7.5
-Yale University New Haven Connecticut Northeast 5 5.6
-Carnegie Mellon University Pittsburgh Pennsylvania Northeast 1 39.0
-University of Illinois Urbana-Champaign Illinois Midwest 1 21.0
-University of Arizona Tucson Arizona West 1 46.0
-Purdue University West Lafayette Indiana Midwest 2 38.0
-Massachusetts Institute of Technology Cambridge Massachusetts Northeast 4 4.5
-University of Notre Dame South Bend Indiana Midwest 3 21.6666666667
-University of California at Santa Barbara Santa Barbara California West 1 29.0
-University of Pennsylvania Philadelphia Pennsylvania Northeast 5 9.6
-University of California at Berkeley Berkeley California West 1 4.0
-University of Utah Salt Lake City Utah West 1 47.0
-Middlebury College Middlebury Vermont Northeast 2 43.0
-Ohio State University Columbus Ohio Midwest 1 40.0
-Northwestern University Evanston Illinois Midwest 4 26.0
-Haverford College Haverford Pennsylvania Northeast 1 30.0
-University of California-Davis Davis California West 1 27.0
-Wellesley College Wellesley Massachusetts Northeast 2 33.5
-University of Chicago Chicago Illinois Midwest 5 15.0
-Cornell University Ithaca New York Northeast 3 22.6666666667
-University of Michigan-Ann Arbor Ann Arbor Michigan West 1 35.0
-Duke University Durham North Carolina South 5 14.2
-Tufts University Medford Massachusetts Northeast 2 29.0
-Massachusetts Institute of Technology (MIT) Cambridge Massachusetts Northeast 1 3.0
-Carleton College Northfield Minnesota Midwest 3 28.3333333333
-Dartmouth College Hanover New Hampshire Northeast 3 16.6666666667
-Princeton University Princeton New Jersey Northeast 5 2.6
-Cooper Union New York New York Northeast 1 22.0
-University of California at San Diego San Diego California West 1 12.0
-Hamilton College Clinton New York Northeast 1 47.0
+.data_table     {
+                    margin: 1em 0;
+                    min-width: 300px; // adjust to your needs
+                    background: #34495E;
+                    color: #fff;
+                    border: 1
+                    border-radius: .4em;
+                    overflow: hidden;
+                    style="overflow-y:scroll
+                    tr {
+                      border-color: lighten(#34495E, 10%);
+                    }
+                    th, td {
+                      margin: .5em 1em;
+                    }
+
+                    tbody {
+                      padding: 0 2em;
+                      font-family: Montserrat, sans-serif;
+                      -webkit-font-smoothing: antialiased;
+                      text-rendering: optimizeLegibility;
+                      color: #444;
+                      background: #eee;
+                    }
+                }

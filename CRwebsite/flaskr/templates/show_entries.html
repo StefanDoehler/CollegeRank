@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+    <form action="{{ url_for('add_entry') }}" method=post class=add-entry>
+      <dl>
+        <dt>Title:
+        <dd><input type=text size=30 name=title>
+        <dt>Text:
+        <dd><textarea name=text rows=5 cols=40></textarea>
+        <dd><input type=submit value=Share>
+      </dl>
+    </form>
+  {% endif %}
+  <ul class=entries>
+  {% for entry in entries %}
+    <li><h2>{{ entry.title }}</h2>{{ entry.text|safe }}
+  {% else %}
+    <li><em>Unbelievable.  No entries here so far</em>
+  {% endfor %}
+  </ul>
+  <table class="data_table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Average</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Region</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    {% set rank = 1 %}
+    {% for school in schools %}
+      <tr>
+        <td>{{ rank }}</td>
+        <td>{{ school[0] }}</td>
+        <td>{{ school[1] }}</td>
+        <td>{{ school[2] }}</td>
+        <td>{{ school[3] }}</td>
+        <td>{{ school[4] }}</td>
+      </tr>
+    {% set rank = rank + 1 %}
+    {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
