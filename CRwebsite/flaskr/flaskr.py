@@ -105,6 +105,13 @@ def add_entry():
     flash('New entry was successfully posted')
     return redirect(url_for('show_entries'))
 
+@app.route('/results.html', methods=['GET','POST'])
+def results():
+    schools = database.query_by_region(request.form["Region"], request.form["School Number"])
+    schools = database.query_by_state(request.form["State"], request.form["School Number"])
+
+    return render_template('show_entries.html', schools=schools)
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     error = None

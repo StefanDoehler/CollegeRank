@@ -114,57 +114,62 @@ def delete_tables():
     connection.close()
 
 
-def query_all_schools(connection, cursor, order, limit):
+def query_all_schools(limit):
+    connection = connect_db()
+    cursor = connection.cursor()
     cursor.execute("""
-        SELECT a.name, b.average, b.num_lists, c.city, c.state, c.region FROM Schools AS a
+        SELECT a.name, b.average, c.city, c.state, c.region FROM Schools AS a
          INNER JOIN Scores AS b ON a.score = b.score_ID
           INNER JOIN Locations AS c ON a.location = c.location_ID
            ORDER BY b.average
             LIMIT %s
     """, limit)
+    result = cursor.fetchall()
+    cursor.close()
+    connection.close()
 
-    return cursor.fetchall()
+    return result
 
 
-def query_by_state(state, order, limit):
+def query_by_state(state, limit):
+    connection = connect_db()
+    cursor = connection.cursor()
     cursor.execute("""
-        SELECT a.name, b.average, b.num_lists, c.city, c.state, c.region FROM schools AS a
+        SELECT a.name, b.average, c.city, c.state, c.region FROM schools AS a
          INNER JOIN Scores AS b ON a.score = b.score_ID
           INNER JOIN (SELECT * FROM Locations AS c WHERE state = %s) AS c ON a.location = c.location_ID
            ORDER BY b.average
             LIMIT %s
     """, (state, limit))
+    result = cursor.fetchall()
+    cursor.close()
+    connection.close()
 
-    return cursor.fetchall()
+    return result
 
 
-def query_by_region(region, order, limit):
+def query_by_region(region, limit):
+    connection = connect_db()
+    cursor = connection.cursor()
     cursor.execute("""
-        SELECT a.name, b.average, b.num_lists, c.city, c.state, c.region FROM schools AS a
+        SELECT a.name, b.average, c.city, c.state, c.region FROM schools AS a
          INNER JOIN Scores AS b ON a.score = b.score_ID
           INNER JOIN (SELECT * FROM Locations AS c WHERE region = %s) AS c ON a.location = c.location_ID
            ORDER BY b.average
             LIMIT %s
     """, (region, limit))
+    result = cursor.fetchall()
+    cursor.close()
+    connection.close()
 
-    return cursor.fetchall()
+    return result
+
 
 def sort_alphabetically(arg):
+    connection = connect_db()
+    cursor = connection.cursor()
     cursor.execute("""
 
     """)
-
-
-#create_schema()
-#cursor = con.cursor()
-#add_school("Yale University", [["New Haven", "Connecticut", "Northeast"], 5, 16], con, cursor)
-#add_school("USF", [["San Francisco", "California", "West"], 2, 33], con, cursor)
-#cursor.close()
-#con.close()
-#delete_tables()
-#create_schema()
-c = connect_db()
-cursor = c.cursor()
-l = query_by_region("West", 20)
-for school in l:
-    print school
+    cursor.close()
+    connection.close()
